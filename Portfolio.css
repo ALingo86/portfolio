@@ -1,0 +1,337 @@
+body {
+    background-color: black;
+    height: 110vh;
+    width: 98vw;
+}
+
+.background1 {
+    background-image: url("Assets/bricks.png");
+    background-repeat: repeat;
+    background-size: auto;
+    min-height: 118vh;
+    min-width: 95vw;
+    z-index: -3;
+}
+
+.chatbox1 {
+    background-color: antiquewhite;
+    position: relative;
+    border-radius: 5%;
+    border: 2px solid black;
+    width: 85%;
+    height: 200px;
+    left: 213px;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 0%;
+}
+
+.bubble {
+    height: 75px;
+    width: 10%;
+    min-width: 50px;
+    background: antiquewhite;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    font-size: 24px;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 325px;
+    top: 690px;
+}
+
+.pointer {
+    height: 20px;
+    width: 25px;
+    background: antiquewhite;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 6px 0;
+    z-index: 1;
+    position: absolute;
+    right: 375px;
+    top: 800px;
+}
+
+.blurred {
+    background: black;
+    filter: blur(20px);
+    z-index: 0;
+}
+
+.storepage {
+    z-index: 1;
+    position: absolute;
+    top: 776px;
+    left: 672px;
+}
+
+.storepage .storepagetext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.storepage:hover .storepagetext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.petadopter {
+    z-index: 1;
+    position: absolute;
+    top: 795px;
+    left: 1000px;
+    transform: rotate(1.5deg);
+}
+
+.petadopter .petadoptertext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 2;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.petadopter:hover .petadoptertext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.devteam {
+    z-index: 0;
+    position: absolute;
+    top: 600px;
+    left: 912px;
+    transform: rotate(1deg);
+}
+
+.devteam .devteamtext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.devteam:hover .devteamtext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.xena {
+    position: absolute;
+    right: 320px;
+    bottom: -180px;
+}
+
+.xena .xenatext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.xena:hover .xenatext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.meek {
+    left: 3px;
+    top: 15px;
+    float: left;
+    position: relative;
+}
+
+.meek .meektext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.meek:hover .meektext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.toppanel {
+    font-family: serif;
+    font-size: 28px;
+    left: 10px;
+    position: relative;
+    height: 35px;
+    background-color: lightgray;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.badge {
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 985px;
+    transform: rotate(12deg);
+    padding: 0px;
+    margin: 0%;
+}
+
+.gradbadge {
+    display: block;
+    position: absolute;
+    top: 775px;
+    left: 495px;
+    transform: rotate(8deg);
+}
+
+.csharp {
+    position: absolute;
+    display: block;
+    left: 500px;
+    top: 425px;
+}
+
+.agile {
+    position: absolute;
+    display: block;
+    left: 500px;
+    top: 500px;
+}
+
+.mat {
+    z-index: 0;
+    position: absolute;
+    top: 613px;
+    left: 530px;
+}
+
+.mat .mattext {
+    visibility: hidden;
+    width: 120px;
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 2px solid black;
+}
+
+.mat:hover .mattext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.knight {
+    display: block;
+    position: absolute;
+    float: left;
+    bottom: 0pt;
+    left: 0pt;
+    top: 450pt;
+}
+
+.knighttext {
+    display: block;
+    position: absolute;
+    height: 325px;
+    width: 275px;
+    background: antiquewhite;
+    margin-left: 15px;
+    border-radius: 20px;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 22pt;
+}
+
+.knightpointer {
+    height: 30px;
+    width: 30px;
+    background: antiquewhite;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    border-radius: 0 0 6px 0;
+    z-index: 1;
+    position: absolute;
+    left: 150pt;
+    top: 420pt;
+}
+
+.knightblurred {
+    background: black;
+    filter: blur(20px);
+    z-index: 0;
+}

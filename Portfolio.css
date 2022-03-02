@@ -161,7 +161,7 @@ body {
 .xena {
     position: absolute;
     right: 320px;
-    bottom: -180px;
+    bottom: -145px;
 }
 
 .xena .xenatext {
@@ -334,4 +334,25 @@ body {
     background: black;
     filter: blur(20px);
     z-index: 0;
+}
+
+.resume {
+    background-color: antiquewhite;
+    display: block;
+    border-radius: 20px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    left: 1049pt;
+    top: 523pt;
+    padding: 3pt;
+    text-decoration: none;
+    color: black;
+}
+
+.social {
+    position: absolute;
+    left: 1180pt;
+    top: 668pt;
+    display: inline-grid;
 }
